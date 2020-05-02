@@ -6,7 +6,7 @@ import java.util.Set;
 public class Day02_JewelsAndStones {
 
 	public static int numJewelsInStones(String J, String S) {
-		// If there are no jewels, return 0
+		// If there are no jewels, return
 		if (J == null || J.length() == 0) {
 			return 0;
 		}
