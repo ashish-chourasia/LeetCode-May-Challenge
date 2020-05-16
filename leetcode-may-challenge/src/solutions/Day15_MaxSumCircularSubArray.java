@@ -1,7 +1,10 @@
 package solutions;
 
 public class Day15_MaxSumCircularSubArray {
-
+/*
+ * https://leetcode.com/problems/maximum-sum-circular-subarray/discuss/178422/One-Pass
+		max(the max subarray sum, the total sum - the min subarray sum)
+ */
 	public static int maxSubarraySumCircular(int[] arr) {
 		int maxSoFar = Integer.MIN_VALUE, maxEndingHere = 0;
 		int minSoFar = Integer.MAX_VALUE, minEndingHere = 0;
